@@ -3,7 +3,7 @@
 ROUGH DRAFT
 
 HYPOTHESIS 
-- Utilizing machine learning ad ETL a predictive model was created and illustrated using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus are cities within Salt Lake, Utah and Davis Counties. 
+- Utilizing machine learning and ETL create a predictive model create and illustrate using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus; are cities within Salt Lake, Utah and Davis Counties. 
 
 TECHNOLOGIES 
 - Jupiter Notebook.
@@ -16,7 +16,7 @@ ETL
 EXTRACT the data parameters below for folllowing dates and locations PAST 01/01/1983 - 05/31/1983 | 01/01/2011 - 05/31/2011 | MEDIAN 01/01/1991 - 05/31/2020 | CURRENT/FUTURES 04/01/2023 - 05/31/2023. 4 types timeframes PAST, MEDIAN, CURRENT/FUTURES each coincedies with an timeset above. 
 
 NOTE: if these locations do not suffice, send me NOAA's weather stations for Utah.
-DATA LOCATION Extraction are as follows, using USDA. Salt Lake County (Snowbird, Thayne Canyon, Mill-D North) | Utah County (Cascade Mountain, Timpanogos Divide, Hoblle Creek) | Davis County (Farmington, Farmington Lower, Parrish Creek) 
+DATA LOCATION Extraction are as follows, using USDA. Salt Lake County (Snowbird (84092), Thayne Canyon (84060), Mill-D  North (84121)) | Utah County (Cascade Mountain (84604), Timpanogos Divide (84003), Hobble Creek (84663)) | Davis County (Farmington (84025), Farmington Lower (84037), Parrish Creek (84014)). 
  
 
 
