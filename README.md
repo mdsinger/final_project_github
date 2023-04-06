@@ -20,12 +20,17 @@ DATA LOCATION Extraction are as follows, using USDA. Salt Lake County (Snowbird 
  
 
 
+
+Consolidate 3 datasets  and make SQL schema. 
+
 - Snowfall: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
+- Precipation: : PAST, CURRENT/FUTURES.  (Melissa)
+- Temperature: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
+
 - Snowpack levels: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
 - Snow/Water equivilent: PAST, MEDIAN, CURRENT/FUTURES. (Thomas)
 - Soil Moisture: CURRENT (Thomas)
-- Precipation: : PAST, CURRENT/FUTURES.  (Melissa)
-- Temperature: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
+
 - Population, numbers/growth. : PAST, MEDIAN, CURRENT/FUTURES. (Jane Tableau)
 
 TRANSFROM 
@@ -39,28 +44,21 @@ TRANSFROM
 Clean
 The data exhibits and extrapolates the plausibility of flooding in zip codes/real estate developments of high risk.  
 
+KEY SITES FOR TRANSFROMING, CLEANING 
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corrwith.html
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html
+
 MACHINE LEARNING 
 
 - Try K-Clustering don’t forget to write yourself a legend and colors. 
 - Easy ensemble classifier. 
 - Utlize keras try them all!
-
-KEY SITES FOR TRANSFROMING AND CLEANING THE DATA.
-
-
-https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corrwith.html
-
-https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html
-
+- Most likely used machine learning technique LOGISTICAL REGRESSION. 
 https://github.com/EnzoZirotti/Wildfire-Prediction-Website
-
 https://keras.io/guides/keras_tuner/getting_started/ Module 19
- 
 
 Weather Stations USDA
 https://wcc.sc.egov.usda.gov/reportGenerator/view/customMultipleStationReport/daily/state=%22UT%22%20AND%20network=%22SNTLT%22,%22SNTL%22%20AND%20element=%22SNWD%22%20AND%20outServiceDate=%222100-01-01%22%7cname/0,0/name,stationId,WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta?fitToScreen=false
-
-
 
 5 TAKEAWAYS/STORYBOARD ILUUSTRATIONS WE NEED TO ARTICULATE FROM ETL AND MACHINE LEARNING.  
 
@@ -82,7 +80,9 @@ Heres what happened in 1983, 2011, and 2023.
 Bar charts, heat maps for population, area's, 
 
 
+NOTES with Eric, mitchel and Enzio
 
+Target variable must show flood proof. Soil/moisture satuaration USDA website or historical proof Geological website. 
 
 
 
