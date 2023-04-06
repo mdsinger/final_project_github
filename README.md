@@ -33,6 +33,11 @@ Consolidate 3 datasets  and make SQL schema.
 
 - Population, numbers/growth. : PAST, MEDIAN, CURRENT/FUTURES. (Jane Tableau)
 
+# Population Growth Chart
+
+
+
+
 TRANSFROM 
 
 - First step aggregate the data then merge the data into 9 or 10 columns. Assign by date, check and elminate duplicates and nulls. 
