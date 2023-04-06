@@ -42,7 +42,7 @@ Population Growth Chart
 
 Population by County Heat Map
 
-![Population by County Heat map](https://user-images.githubusercontent.com/116606765/230499335-46014634-2cc9-4e84-a751-a8de5245cc91.png)
+![Population by County Heat map](https://user-images.githubusercontent.com/116606765/230499888-9108a913-c897-40c9-991c-7dd781420e3e.png)
 
 
 ### TRANSFROM 
