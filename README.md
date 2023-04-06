@@ -2,16 +2,16 @@
 
 ROUGH DRAFT
 
-##HYPOTHESIS 
+## HYPOTHESIS
 - Utilizing machine learning and ETL create a predictive model create and illustrate using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus; are cities within Salt Lake, Utah and Davis Counties. 
 
-##TECHNOLOGIES 
+## TECHNOLOGIES 
 - Jupiter Notebook.
 - Excel
 - Machine Learning
 - Tableau https://public.tableau.com/app/discover to Edit USERNAME shoessold0411@outlook.com PASSWORD Capita11Nas!
 
-##ETL
+## ETL
 
 EXTRACT the data parameters below for folllowing dates and locations PAST 01/01/1983 - 05/31/1983 | 01/01/2011 - 05/31/2011 | MEDIAN 01/01/1991 - 05/31/2020 | CURRENT/FUTURES 04/01/2023 - 05/31/2023. 4 types timeframes PAST, MEDIAN, CURRENT/FUTURES each coincedies with an timeset above. 
 
@@ -25,21 +25,20 @@ Consolidate 3 datasets  and make SQL schema.
 
 - Snowfall: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
 - Precipation: : PAST, CURRENT/FUTURES.  (Melissa)
-- Temperature: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
+- Temperature: PAST, MEDIAN, CURRENT/FUTURES. (Melissa/Jane)
 
 - Snowpack levels: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
 - Snow/Water equivilent: PAST, MEDIAN, CURRENT/FUTURES. (Thomas)
 - Soil Moisture: CURRENT (Thomas)
 
-- Population, numbers/growth. : PAST, MEDIAN, CURRENT/FUTURES. (Jane Tableau)
+- Population, numbers/growth. : PAST, MEDIAN, CURRENT/FUTURES. (Jane)
 
 ### Population Growth Chart
 
 ![Salt Lake Davis Utah Counties Population Growth](https://user-images.githubusercontent.com/116606765/230271037-58a5e939-812b-49fd-96e8-4ed757feedbf.png)
 
 
-
-##TRANSFROM 
+## TRANSFROM 
 
 - First step aggregate the data then merge the data into 9 or 10 columns. Assign by date, check and elminate duplicates and nulls. 
 
@@ -54,7 +53,7 @@ KEY SITES FOR TRANSFROMING, CLEANING
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corrwith.html
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html
 
-##MACHINE LEARNING 
+## MACHINE LEARNING 
 
 - Try K-Clustering don’t forget to write yourself a legend and colors. 
 - Easy ensemble classifier. 
@@ -66,7 +65,7 @@ https://keras.io/guides/keras_tuner/getting_started/ Module 19
 Weather Stations USDA
 https://wcc.sc.egov.usda.gov/reportGenerator/view/customMultipleStationReport/daily/state=%22UT%22%20AND%20network=%22SNTLT%22,%22SNTL%22%20AND%20element=%22SNWD%22%20AND%20outServiceDate=%222100-01-01%22%7cname/0,0/name,stationId,WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta?fitToScreen=false
 
-5 TAKEAWAYS/STORYBOARD ILUUSTRATIONS WE NEED TO ARTICULATE FROM ETL AND MACHINE LEARNING.  
+### 5 Takeaways/Storyboard Illustrations/Vizualizations from ETL and Maschine Learning
 
 We decided to to do this study basedd on the snowfall/snowpack. Based off the record snowfall and snowpack will what flood? 
 
@@ -86,7 +85,7 @@ Heres what happened in 1983, 2011, and 2023.
 Bar charts, heat maps for population, area's, 
 
 
-###NOTES with Eric, mitchel and Enzio
+### Notes with Eric, Mitchel, Enzo
 
 Target variable must show flood proof. Soil/moisture satuaration USDA website or historical proof Geological website. 
 
