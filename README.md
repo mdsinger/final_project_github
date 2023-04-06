@@ -24,9 +24,14 @@ Consolidate 3 datasets  and make SQL schema.
 - Snowfall: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
 - Precipation: : PAST, CURRENT/FUTURES.  (Melissa)
 - Temperature: PAST, MEDIAN, CURRENT/FUTURES. (Melissa/Jane)
-
 - Snowpack levels: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
 - Snow/Water equivilent: PAST, MEDIAN, CURRENT/FUTURES. (Thomas)
+
+Snow Water Equivalent
+
+![Snow water Equvalent](https://user-images.githubusercontent.com/116606765/230414009-c91b0608-7c8a-4c87-ab02-1d0259c4a081.png)
+
+
 - Soil Moisture: CURRENT (Thomas)
 
 - Population, numbers/growth. : PAST, MEDIAN, CURRENT/FUTURES. (Jane)
