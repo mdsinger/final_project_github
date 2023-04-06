@@ -40,6 +40,10 @@ Population Growth Chart
 
 ![Salt Lake Davis Utah Counties Population Growth](https://user-images.githubusercontent.com/116606765/230271037-58a5e939-812b-49fd-96e8-4ed757feedbf.png)
 
+Population by County Heat Map
+
+![Population by County Heat map](https://user-images.githubusercontent.com/116606765/230499335-46014634-2cc9-4e84-a751-a8de5245cc91.png)
+
 
 ### TRANSFROM 
 
