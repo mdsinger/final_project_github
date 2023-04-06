@@ -13,14 +13,12 @@ ROUGH DRAFT
 
 ## ETL
 
-EXTRACT the data parameters below for folllowing dates and locations PAST 01/01/1983 - 05/31/1983 | 01/01/2011 - 05/31/2011 | MEDIAN 01/01/1991 - 05/31/2020 | CURRENT/FUTURES 04/01/2023 - 05/31/2023. 4 types timeframes PAST, MEDIAN, CURRENT/FUTURES each coincedies with an timeset above. 
+### EXTRACT 
+Extract the data parameters below for folllowing dates and locations PAST 01/01/1983 - 05/31/1983 | 01/01/2011 - 05/31/2011 | MEDIAN 01/01/1991 - 05/31/2020 | CURRENT/FUTURES 04/01/2023 - 05/31/2023. 4 types timeframes PAST, MEDIAN, CURRENT/FUTURES each coincedies with an timeset above. 
 
 NOTE: if these locations do not suffice, send me NOAA's weather stations for Utah.
 DATA LOCATION Extraction are as follows, using USDA. Salt Lake County (Snowbird (84092), Thayne Canyon (84060), Mill-D  North (84121)) | Utah County (Cascade Mountain (84604), Timpanogos Divide (84003), Hobble Creek (84663)) | Davis County (Farmington (84025), Farmington Lower (84037), Parrish Creek (84014)). 
  
-
-
-
 Consolidate 3 datasets  and make SQL schema. 
 
 - Snowfall: PAST, MEDIAN, CURRENT/FUTURES. (Melissa)
@@ -33,12 +31,12 @@ Consolidate 3 datasets  and make SQL schema.
 
 - Population, numbers/growth. : PAST, MEDIAN, CURRENT/FUTURES. (Jane)
 
-### Population Growth Chart
+Population Growth Chart
 
 ![Salt Lake Davis Utah Counties Population Growth](https://user-images.githubusercontent.com/116606765/230271037-58a5e939-812b-49fd-96e8-4ed757feedbf.png)
 
 
-## TRANSFROM 
+### TRANSFROM 
 
 - First step aggregate the data then merge the data into 9 or 10 columns. Assign by date, check and elminate duplicates and nulls. 
 
