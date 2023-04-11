@@ -40,11 +40,12 @@ Snow Water Equivalent
 
 Population Growth Chart
 
-![Salt Lake Davis Utah Counties Population Growth](https://user-images.githubusercontent.com/116606765/230271037-58a5e939-812b-49fd-96e8-4ed757feedbf.png)
+![Population Census Data](https://user-images.githubusercontent.com/116606765/231285501-4c9abf7a-f96a-4476-ad95-06b0d2e53a41.png)
+
 
 Population by County Heat Map
 
-![Population by County Heat map](https://user-images.githubusercontent.com/116606765/230499888-9108a913-c897-40c9-991c-7dd781420e3e.png)
+![Population by County and Year Heatmap](https://user-images.githubusercontent.com/116606765/231285568-fbef6728-6de1-4bd1-8224-8c5a04885973.png)
 
 
 ### TRANSFROM 
