@@ -3,7 +3,7 @@
 ROUGH DRAFT
 
 ## HYPOTHESIS
-- Utilizing machine learning and ETL create a predictive model create and illustrate using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus; are cities within Salt Lake, Utah and Davis Counties. 
+- Utilizing machine learning and ETL create a predictive model create and illustrate using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus; are cities within Salt Lake, Utah, Davis, and Weber Counties. 
 
 ## TECHNOLOGIES 
 - Jupiter Notebook.
