@@ -3,7 +3,7 @@
 ROUGH DRAFT
 
 ## HYPOTHESIS
-- Utilizing machine learning and ETL create a predictive model create and illustrate using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus; are cities within Salt Lake, Utah, Davis, and Weber Counties. 
+- Utilizing machine learning and ETL create a predictive model and illustrate using Tableau to forecast the probability of flooding from abrupt snowpack disinegration. Areas of focus; are cities within Salt Lake, Utah, Davis, and Weber Counties. 
 
 ## TECHNOLOGIES 
 - Jupiter Notebook.
@@ -89,7 +89,13 @@ The data collected is historical data from 1983, 2011, median range of 1990-2020
 
 MACHINE LEARNING
 
-Analyzing the dataset, a relevant and simple target variable presents itself, temperature. Flooding has occurred in the past when a drastic, consistent, and volatile change in temperature takes place. The dataset shows that temperature is the main driving factor in snowpack disintegration and therefore, flooding. Two other key points to consider when temperature increases to an extreme rate is the amount of Snow/Water Equilinecey. (Snow/water equivalent is, is the amount of liquid water in the snow. If you took a height of snow and melted it, the height of the water created is SWE. For example, if 10″ of snow falls at 10% density, then there would be 1″ of SWE. https://missoulaavalanche.org/)  Extreme temperature rates, and large snow/water equivalent flows, and snowpacks- directly correlates and effects streams, rivers, and deltas which is illustrated by Stream Flow Data. Coupling these key data points together and utilizing machine learning and leveraging the logistical regression model our hypothesis dictates that flooding may.......? 
+Analyzing the dataset, a relevant and simple target variable presents itself, reservoir capacity. The historical dataset shows that when reservoir capacity is at peak levels during heavy precpitation years this factor among others supports the prediction that flooding may occur. Two other key points to consider when reservoir capacity increases to a full rate is the amount of Snow/Water Equivalency or (SWE). Definition, (Snow/water equivalent is the amount of liquid water in the snow. If you took a height of snow and melted it, the height of the water created is SWE. For example, if 10″ of snow falls at 10% density, then there would be 1″ of SWE. https://missoulaavalanche.org/). Lastly, is temperature. Flooding has occurred in the past when a drastic, consistent, and volatile change in temperature takes place. By coupling together reservoir capacity, severe temperature hikes, and large snow/water equivalent flow these key data points together and utilizing machine learning and leveraging the logistical regression model our hypothesis dictates that flooding may.......? 
+
+NOTES DURING PRESENTATION WORTH STATING (OPTIONAL)
+
+*12-15 years of Drought, based upon logical analysis the flood water will FIRST fill ground water basins, wells, and the great salt lake-therefore, minmal flooding may occur.
+
+
 
 *the melt rate may illustrate the probability of flooding. encapsulated this within a logistical regression model. 
 
